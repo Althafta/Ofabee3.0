@@ -1,0 +1,22 @@
+{
+  "main.css": "./static/css/main.400784c0.chunk.css",
+  "main.js": "./static/js/main.726aedfe.chunk.js",
+  "static/js/1.00b5bc2e.chunk.js": "./static/js/1.00b5bc2e.chunk.js",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "static/media/open-sans.css": "./static/media/open-sans-v17-latin_greek-800italic.ca67d5b1.svg",
+  "static/media/index.css": "./static/media/chevron-right-white.3ea1e6be.svg",
+  "static/media/Scorm.css": "./static/media/close-dark.1ad17ea0.svg",
+  "static/media/Document.css": "./static/media/chevron-right.608e4136.svg",
+  "static/media/expand.svg": "./static/media/expand.ec365817.svg",
+  "static/media/minimize.svg": "./static/media/minimize.296b236a.svg",
+  "static/media/poster.svg": "./static/media/poster.dc04c36a.svg",
+  "static/media/check.svg": "./static/media/check.dee3512a.svg",
+  "static/media/baseline-lock-24px.svg": "./static/media/baseline-lock-24px.6e97143e.svg",
+  "static/media/attachment.svg": "./static/media/attachment.9eef3a51.svg",
+  "static/media/certificate-icon.jpg": "./static/media/certificate-icon.ba8bf677.jpg",
+  "static/media/Forum.css": "./static/media/close.1c1d65e7.svg",
+  "static/media/Curriculum.css": "./static/media/tick.58712067.svg",
+  "index.html": "./index.html",
+  "precache-manifest.e556612732682d99876c8760eec07975.js": "./precache-manifest.e556612732682d99876c8760eec07975.js",
+  "service-worker.js": "./service-worker.js"
+}

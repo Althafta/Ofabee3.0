@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BubbleTransition (3.2.0)
+  - FloatRatingView (2.0)
+  - Http.swift (2.1.2):
+    - Socket.swift (~> 2.2)
+  - Phone-Country-Code-and-Flags (0.2.1)
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
+  - Socket.swift (2.3.0)
+  - SSProgressBar (1.0.1)
+  - TweeTextField (1.5.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - BubbleTransition (~> 3.2.0)
+  - FloatRatingView (~> 2.0.0)
+  - Http.swift (~> 2.1)
+  - Phone-Country-Code-and-Flags
+  - SDWebImage (~> 5.0)
+  - SSProgressBar
+  - TweeTextField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BubbleTransition
+    - FloatRatingView
+    - Http.swift
+    - Phone-Country-Code-and-Flags
+    - SDWebImage
+    - Socket.swift
+    - SSProgressBar
+    - TweeTextField
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BubbleTransition: 2f112cc19772d9ab199bc850de92f5eb34744bce
+  FloatRatingView: 857ab8f10040d06a42fc979f486c8f9fecd2f2e5
+  Http.swift: 90f3126a317a5bf2ee6fc353de290bd184a2a91e
+  Phone-Country-Code-and-Flags: 19b303483d6e14091a1e3a404ec2aac8f08a985c
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
+  Socket.swift: aac01e588724e57a6a871b945184444f2b6521fc
+  SSProgressBar: 868de6156882f96b7325685b3748fcc80aeb3b6f
+  TweeTextField: 18c7c8990a4a0926ce8ba73fc87e52df4f26805b
+
+PODFILE CHECKSUM: 93f27978f20c101f898988b65d92825c29b444e0
+
+COCOAPODS: 1.6.2

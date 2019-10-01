@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "73B68342-F04F-44D4-8390-D48FC7A1E182"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "C1A4DA25-74F2-418C-BA3A-9C17D1F5EE91"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF87A96C-9A3C-4D7C-86EC-F17AE5D554ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ofabee3.0/View/TableViewCells/Home/OFA3HomeFeaturedCoursesTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "updateCellDetails(isGradientApplied:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C013CAA-BDAB-471F-8FD6-8DF80054B57A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ofabee3.0/View/TableViewCells/Home/OFA3HomeFeaturedCoursesTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1C013CAA-BDAB-471F-8FD6-8DF80054B57A - ba579f740f92ccd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ofabee3_0.OFA3HomeFeaturedCoursesTableViewCell.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Ofabee3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enfin/Desktop/Althaf/Projects/Git%20Projects/Ofabee%203.0/Ofabee3.0/Ofabee3.0/View/TableViewCells/Home/OFA3HomeFeaturedCoursesTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "1C013CAA-BDAB-471F-8FD6-8DF80054B57A - 21c377e49a920bd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Ofabee3_0.OFA3HomeFeaturedCoursesTableViewCell.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Ofabee3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enfin/Desktop/Althaf/Projects/Git%20Projects/Ofabee%203.0/Ofabee3.0/Ofabee3.0/View/TableViewCells/Home/OFA3HomeFeaturedCoursesTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

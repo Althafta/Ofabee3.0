@@ -1,0 +1,1287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EC7D2C75CAA32EE9AB7BBB /* Pods_Ofabee3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA867B124E7B18335D3EB935 /* Pods_Ofabee3_0.framework */; };
+		651C48D622DEE84E0069EDE3 /* OFAUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C48D522DEE84E0069EDE3 /* OFAUtils.swift */; };
+		651C48D922DEE86F0069EDE3 /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C48D822DEE86F0069EDE3 /* SwiftLoader.swift */; };
+		651C48DA22DEE86F0069EDE3 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C48D722DEE86F0069EDE3 /* Toast.swift */; };
+		651C48DC22DEE9160069EDE3 /* OFAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C48DB22DEE9160069EDE3 /* OFAConstants.swift */; };
+		651C48E022DF616A0069EDE3 /* PCCPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651C48DE22DF616A0069EDE3 /* PCCPViewController.m */; };
+		6524389823387F5B002907AE /* OFA3AllCoursesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524389723387F5B002907AE /* OFA3AllCoursesListTableViewController.swift */; };
+		6524389A23388054002907AE /* OFA3AllCoursesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524389923388054002907AE /* OFA3AllCoursesListTableViewCell.swift */; };
+		653945DA23337F7E00507156 /* OFA3PasswordResetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653945D923337F7E00507156 /* OFA3PasswordResetTableViewController.swift */; };
+		655B1A672313E13600C060FE /* OFA3ForgetPasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B1A662313E13600C060FE /* OFA3ForgetPasswordTableViewController.swift */; };
+		655B1A692313E5CA00C060FE /* OFA3OTPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B1A682313E5CA00C060FE /* OFA3OTPTableViewController.swift */; };
+		6566F6D923226F3200AEB156 /* OFA3EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566F6D823226F3200AEB156 /* OFA3EditProfileTableViewController.swift */; };
+		656F72F322E06B3C00A1FB81 /* OFA3RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656F72F222E06B3C00A1FB81 /* OFA3RegisterTableViewController.swift */; };
+		656FFC7422FC58CA007CD943 /* OFA3CategorySelectionContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FFC7322FC58CA007CD943 /* OFA3CategorySelectionContainerViewController.swift */; };
+		656FFC7622FC58DD007CD943 /* OFA3CategoryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FFC7522FC58DD007CD943 /* OFA3CategoryListTableViewController.swift */; };
+		656FFC7922FC5903007CD943 /* OFA3CategorySelectionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FFC7822FC5903007CD943 /* OFA3CategorySelectionListTableViewCell.swift */; };
+		6575B201231669A400C4A322 /* OFA3CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6575B200231669A400C4A322 /* OFA3CoreDataManager.swift */; };
+		657BBEB32315631800E35BDB /* OFA3SingletonUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657BBEB22315631800E35BDB /* OFA3SingletonUser.swift */; };
+		657BBEB62315634B00E35BDB /* HandleNullValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 657BBEB42315634B00E35BDB /* HandleNullValues.m */; };
+		65A72A292321029900629E92 /* OFA3WebViewMyCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A72A282321029900629E92 /* OFA3WebViewMyCourseViewController.swift */; };
+		65A72A2D23210A2200629E92 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A72A2C23210A2200629E92 /* WebKit.framework */; };
+		65A72A71232117D300629E92 /* OFA3ProfileSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A72A70232117D300629E92 /* OFA3ProfileSettingsTableViewCell.swift */; };
+		65AF399D22CCBAEC00FE6B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF399C22CCBAEC00FE6B80 /* AppDelegate.swift */; };
+		65AF39A222CCBAEC00FE6B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AF39A022CCBAEC00FE6B80 /* Main.storyboard */; };
+		65AF39A522CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65AF39A322CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodeld */; };
+		65AF39A722CCBAEE00FE6B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AF39A622CCBAEE00FE6B80 /* Assets.xcassets */; };
+		65AF39AA22CCBAEE00FE6B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AF39A822CCBAEE00FE6B80 /* LaunchScreen.storyboard */; };
+		65AF39B522CCBAEE00FE6B80 /* Ofabee3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF39B422CCBAEE00FE6B80 /* Ofabee3_0Tests.swift */; };
+		65AF39C022CCBAEE00FE6B80 /* Ofabee3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF39BF22CCBAEE00FE6B80 /* Ofabee3_0UITests.swift */; };
+		65B069F1230ED4CE0023CA68 /* OFA3HomePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B069F0230ED4CE0023CA68 /* OFA3HomePageTableViewController.swift */; };
+		65B069F7230ED7530023CA68 /* OFA3LeftSideBubbleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B069F6230ED7530023CA68 /* OFA3LeftSideBubbleTableViewController.swift */; };
+		65B069F9230ED77D0023CA68 /* OFA3HomeNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B069F8230ED77D0023CA68 /* OFA3HomeNavigationViewController.swift */; };
+		65B069FB230ED7A00023CA68 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B069FA230ED7A00023CA68 /* UIViewControllerExtension.swift */; };
+		65B069FD230ED81E0023CA68 /* OFA3TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B069FC230ED81E0023CA68 /* OFA3TabBarViewController.swift */; };
+		65B578022331071D00AA9AF0 /* OFA3WebViewReDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B578012331071D00AA9AF0 /* OFA3WebViewReDirectionViewController.swift */; };
+		65B578052331153100AA9AF0 /* OFA3HomePopularCoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B578042331153100AA9AF0 /* OFA3HomePopularCoursesTableViewCell.swift */; };
+		65B578072331154400AA9AF0 /* OFA3HomeFeaturedCoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B578062331154400AA9AF0 /* OFA3HomeFeaturedCoursesTableViewCell.swift */; };
+		65B578092331155D00AA9AF0 /* OFA3PopularCoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B578082331155D00AA9AF0 /* OFA3PopularCoursesTableViewCell.swift */; };
+		65B5780B2331157700AA9AF0 /* OFA3FeaturedCoursesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5780A2331157700AA9AF0 /* OFA3FeaturedCoursesCollectionViewCell.swift */; };
+		65BC2651233CCDFB0017800B /* build in Resources */ = {isa = PBXBuildFile; fileRef = 65BC2650233CCDFB0017800B /* build */; };
+		65C5AA2F22DDC77E00EA7801 /* OFA3LoginSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5AA2E22DDC77E00EA7801 /* OFA3LoginSelectionTableViewController.swift */; };
+		65C5C0D623430A880000674B /* OFA3ExploreCoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5C0D523430A880000674B /* OFA3ExploreCoursesTableViewController.swift */; };
+		65C5C0D923430AAF0000674B /* OFA3ExploreCourseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5C0D823430AAF0000674B /* OFA3ExploreCourseListTableViewCell.swift */; };
+		65C5C0EA234310460000674B /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0DC234310380000674B /* OpenSans-Semibold.ttf */; };
+		65C5C0EB234310460000674B /* OpenSans-CondLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0DD234310380000674B /* OpenSans-CondLightItalic.ttf */; };
+		65C5C0EC234310460000674B /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0DE234310380000674B /* OpenSans-CondLight.ttf */; };
+		65C5C0ED234310460000674B /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0DF234310380000674B /* OpenSans-Light.ttf */; };
+		65C5C0EE234310460000674B /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E0234310380000674B /* OpenSans-Italic.ttf */; };
+		65C5C0EF234310460000674B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E1234310380000674B /* OpenSans-ExtraBold.ttf */; };
+		65C5C0F0234310460000674B /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E2234310380000674B /* OpenSans-LightItalic.ttf */; };
+		65C5C0F1234310460000674B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E3234310380000674B /* OpenSans-Bold.ttf */; };
+		65C5C0F2234310460000674B /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E4234310380000674B /* OpenSans-SemiboldItalic.ttf */; };
+		65C5C0F3234310460000674B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E5234310380000674B /* readme.txt */; };
+		65C5C0F4234310460000674B /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E6234310380000674B /* OpenSans-ExtraBoldItalic.ttf */; };
+		65C5C0F5234310460000674B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E7234310380000674B /* OpenSans-Regular.ttf */; };
+		65C5C0F6234310460000674B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E8234310380000674B /* OpenSans-BoldItalic.ttf */; };
+		65C5C0F7234310460000674B /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C0E9234310380000674B /* OpenSans-CondBold.ttf */; };
+		65E04CCF231F776200AA1310 /* OFA3MyCourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E04CCE231F776200AA1310 /* OFA3MyCourseTableViewController.swift */; };
+		65E04CD2231F77B100AA1310 /* OFA3MyCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E04CD1231F77B100AA1310 /* OFA3MyCourseTableViewCell.swift */; };
+		65E04CD5231FC78600AA1310 /* OFA3ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E04CD4231FC78600AA1310 /* OFA3ProfileViewController.swift */; };
+		65E04CD8231FC7D500AA1310 /* OFA3ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E04CD7231FC7D500AA1310 /* OFA3ProfileTableViewController.swift */; };
+		65F5B63422DDF7B300EEE50B /* TabySegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5B63322DDF7B300EEE50B /* TabySegmentedControl.swift */; };
+		65FF760C23348A5800CCC0D7 /* OFAPageViewImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF760A23348A5800CCC0D7 /* OFAPageViewImagesViewController.swift */; };
+		65FF760D23348A5800CCC0D7 /* OFAAppImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF760B23348A5800CCC0D7 /* OFAAppImagesViewController.swift */; };
+		7DD433595293977F9F25C61A /* Pods_Ofabee3_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228A168D759702ABCE90B78 /* Pods_Ofabee3_0Tests.framework */; };
+		C7E15BE2C7BBCDBC5FF94BA5 /* Pods_Ofabee3_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D93CCC83AD22CCBC7A7A012 /* Pods_Ofabee3_0UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65AF39B122CCBAEE00FE6B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AF399122CCBAEC00FE6B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AF399822CCBAEC00FE6B80;
+			remoteInfo = Ofabee3.0;
+		};
+		65AF39BC22CCBAEE00FE6B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AF399122CCBAEC00FE6B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AF399822CCBAEC00FE6B80;
+			remoteInfo = Ofabee3.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867F77D31BE11C38E751E77 /* Pods-Ofabee3.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofabee3.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-Ofabee3.0UITests/Pods-Ofabee3.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D93CCC83AD22CCBC7A7A012 /* Pods_Ofabee3_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ofabee3_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10520939AF538DE4B5EA4F01 /* Pods-Ofabee3.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofabee3.0Tests.release.xcconfig"; path = "Target Support Files/Pods-Ofabee3.0Tests/Pods-Ofabee3.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		427655952CEA256D526D48C7 /* Pods-Ofabee3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofabee3.0.release.xcconfig"; path = "Target Support Files/Pods-Ofabee3.0/Pods-Ofabee3.0.release.xcconfig"; sourceTree = "<group>"; };
+		5228A168D759702ABCE90B78 /* Pods_Ofabee3_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ofabee3_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C48D522DEE84E0069EDE3 /* OFAUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFAUtils.swift; sourceTree = "<group>"; };
+		651C48D722DEE86F0069EDE3 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		651C48D822DEE86F0069EDE3 /* SwiftLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoader.swift; sourceTree = "<group>"; };
+		651C48DB22DEE9160069EDE3 /* OFAConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFAConstants.swift; sourceTree = "<group>"; };
+		651C48DD22DF61690069EDE3 /* Ofabee3.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ofabee3.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		651C48DE22DF616A0069EDE3 /* PCCPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCPViewController.m; sourceTree = "<group>"; };
+		651C48DF22DF616A0069EDE3 /* PCCPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCPViewController.h; sourceTree = "<group>"; };
+		6524389723387F5B002907AE /* OFA3AllCoursesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3AllCoursesListTableViewController.swift; sourceTree = "<group>"; };
+		6524389923388054002907AE /* OFA3AllCoursesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3AllCoursesListTableViewCell.swift; sourceTree = "<group>"; };
+		653945D923337F7E00507156 /* OFA3PasswordResetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3PasswordResetTableViewController.swift; sourceTree = "<group>"; };
+		655B1A662313E13600C060FE /* OFA3ForgetPasswordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3ForgetPasswordTableViewController.swift; sourceTree = "<group>"; };
+		655B1A682313E5CA00C060FE /* OFA3OTPTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3OTPTableViewController.swift; sourceTree = "<group>"; };
+		6566F6D823226F3200AEB156 /* OFA3EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		656F72F222E06B3C00A1FB81 /* OFA3RegisterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3RegisterTableViewController.swift; sourceTree = "<group>"; };
+		656FFC7322FC58CA007CD943 /* OFA3CategorySelectionContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3CategorySelectionContainerViewController.swift; sourceTree = "<group>"; };
+		656FFC7522FC58DD007CD943 /* OFA3CategoryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3CategoryListTableViewController.swift; sourceTree = "<group>"; };
+		656FFC7822FC5903007CD943 /* OFA3CategorySelectionListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3CategorySelectionListTableViewCell.swift; sourceTree = "<group>"; };
+		6575B200231669A400C4A322 /* OFA3CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3CoreDataManager.swift; sourceTree = "<group>"; };
+		657BBEB22315631800E35BDB /* OFA3SingletonUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3SingletonUser.swift; sourceTree = "<group>"; };
+		657BBEB42315634B00E35BDB /* HandleNullValues.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandleNullValues.m; sourceTree = "<group>"; };
+		657BBEB52315634B00E35BDB /* HandleNullValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandleNullValues.h; sourceTree = "<group>"; };
+		65A72A282321029900629E92 /* OFA3WebViewMyCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3WebViewMyCourseViewController.swift; sourceTree = "<group>"; };
+		65A72A2C23210A2200629E92 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		65A72A70232117D300629E92 /* OFA3ProfileSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3ProfileSettingsTableViewCell.swift; sourceTree = "<group>"; };
+		65AF399922CCBAEC00FE6B80 /* Ofabee3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ofabee3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AF399C22CCBAEC00FE6B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65AF39A122CCBAEC00FE6B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65AF39A422CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ofabee3_0.xcdatamodel; sourceTree = "<group>"; };
+		65AF39A622CCBAEE00FE6B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65AF39A922CCBAEE00FE6B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65AF39AB22CCBAEE00FE6B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AF39B022CCBAEE00FE6B80 /* Ofabee3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ofabee3.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AF39B422CCBAEE00FE6B80 /* Ofabee3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ofabee3_0Tests.swift; sourceTree = "<group>"; };
+		65AF39B622CCBAEE00FE6B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AF39BB22CCBAEE00FE6B80 /* Ofabee3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ofabee3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AF39BF22CCBAEE00FE6B80 /* Ofabee3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ofabee3_0UITests.swift; sourceTree = "<group>"; };
+		65AF39C122CCBAEE00FE6B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B069F0230ED4CE0023CA68 /* OFA3HomePageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3HomePageTableViewController.swift; sourceTree = "<group>"; };
+		65B069F6230ED7530023CA68 /* OFA3LeftSideBubbleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFA3LeftSideBubbleTableViewController.swift; sourceTree = "<group>"; };
+		65B069F8230ED77D0023CA68 /* OFA3HomeNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFA3HomeNavigationViewController.swift; sourceTree = "<group>"; };
+		65B069FA230ED7A00023CA68 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		65B069FC230ED81E0023CA68 /* OFA3TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3TabBarViewController.swift; sourceTree = "<group>"; };
+		65B578012331071D00AA9AF0 /* OFA3WebViewReDirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3WebViewReDirectionViewController.swift; sourceTree = "<group>"; };
+		65B578042331153100AA9AF0 /* OFA3HomePopularCoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3HomePopularCoursesTableViewCell.swift; sourceTree = "<group>"; };
+		65B578062331154400AA9AF0 /* OFA3HomeFeaturedCoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3HomeFeaturedCoursesTableViewCell.swift; sourceTree = "<group>"; };
+		65B578082331155D00AA9AF0 /* OFA3PopularCoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3PopularCoursesTableViewCell.swift; sourceTree = "<group>"; };
+		65B5780A2331157700AA9AF0 /* OFA3FeaturedCoursesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3FeaturedCoursesCollectionViewCell.swift; sourceTree = "<group>"; };
+		65BC2650233CCDFB0017800B /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		65C5AA2E22DDC77E00EA7801 /* OFA3LoginSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3LoginSelectionTableViewController.swift; sourceTree = "<group>"; };
+		65C5C0D523430A880000674B /* OFA3ExploreCoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3ExploreCoursesTableViewController.swift; sourceTree = "<group>"; };
+		65C5C0D823430AAF0000674B /* OFA3ExploreCourseListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3ExploreCourseListTableViewCell.swift; sourceTree = "<group>"; };
+		65C5C0DC234310380000674B /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		65C5C0DD234310380000674B /* OpenSans-CondLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondLightItalic.ttf"; sourceTree = "<group>"; };
+		65C5C0DE234310380000674B /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
+		65C5C0DF234310380000674B /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		65C5C0E0234310380000674B /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		65C5C0E1234310380000674B /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		65C5C0E2234310380000674B /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		65C5C0E3234310380000674B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		65C5C0E4234310380000674B /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		65C5C0E5234310380000674B /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		65C5C0E6234310380000674B /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		65C5C0E7234310380000674B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		65C5C0E8234310380000674B /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		65C5C0E9234310380000674B /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
+		65E04CCE231F776200AA1310 /* OFA3MyCourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3MyCourseTableViewController.swift; sourceTree = "<group>"; };
+		65E04CD1231F77B100AA1310 /* OFA3MyCourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3MyCourseTableViewCell.swift; sourceTree = "<group>"; };
+		65E04CD4231FC78600AA1310 /* OFA3ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3ProfileViewController.swift; sourceTree = "<group>"; };
+		65E04CD7231FC7D500AA1310 /* OFA3ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFA3ProfileTableViewController.swift; sourceTree = "<group>"; };
+		65F5B63322DDF7B300EEE50B /* TabySegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabySegmentedControl.swift; sourceTree = "<group>"; };
+		65FF760A23348A5800CCC0D7 /* OFAPageViewImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFAPageViewImagesViewController.swift; sourceTree = "<group>"; };
+		65FF760B23348A5800CCC0D7 /* OFAAppImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFAAppImagesViewController.swift; sourceTree = "<group>"; };
+		BDA5B973365BBBCE697DF631 /* Pods-Ofabee3.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofabee3.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-Ofabee3.0Tests/Pods-Ofabee3.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F9C1D91D45A7995A4DF0BD /* Pods-Ofabee3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofabee3.0.debug.xcconfig"; path = "Target Support Files/Pods-Ofabee3.0/Pods-Ofabee3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		E68C18DD246E9382D02089FF /* Pods-Ofabee3.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofabee3.0UITests.release.xcconfig"; path = "Target Support Files/Pods-Ofabee3.0UITests/Pods-Ofabee3.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA867B124E7B18335D3EB935 /* Pods_Ofabee3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ofabee3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AF399622CCBAEC00FE6B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A72A2D23210A2200629E92 /* WebKit.framework in Frameworks */,
+				17EC7D2C75CAA32EE9AB7BBB /* Pods_Ofabee3_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AF39AD22CCBAEE00FE6B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD433595293977F9F25C61A /* Pods_Ofabee3_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AF39B822CCBAEE00FE6B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E15BE2C7BBCDBC5FF94BA5 /* Pods_Ofabee3_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655B1A6A2313F20F00C060FE /* CountryCode */ = {
+			isa = PBXGroup;
+			children = (
+				651C48DF22DF616A0069EDE3 /* PCCPViewController.h */,
+				651C48DE22DF616A0069EDE3 /* PCCPViewController.m */,
+			);
+			path = CountryCode;
+			sourceTree = "<group>";
+		};
+		656FFC7722FC58E4007CD943 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				65AF39A022CCBAEC00FE6B80 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		656FFC7A22FC590A007CD943 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				656FFC7822FC5903007CD943 /* OFA3CategorySelectionListTableViewCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		656FFC7B22FC5919007CD943 /* User Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AA2E22DDC77E00EA7801 /* OFA3LoginSelectionTableViewController.swift */,
+				656F72F222E06B3C00A1FB81 /* OFA3RegisterTableViewController.swift */,
+				655B1A662313E13600C060FE /* OFA3ForgetPasswordTableViewController.swift */,
+				653945D923337F7E00507156 /* OFA3PasswordResetTableViewController.swift */,
+				655B1A682313E5CA00C060FE /* OFA3OTPTableViewController.swift */,
+			);
+			path = "User Authentication";
+			sourceTree = "<group>";
+		};
+		656FFC7C22FC592C007CD943 /* Category Selection */ = {
+			isa = PBXGroup;
+			children = (
+				656FFC7322FC58CA007CD943 /* OFA3CategorySelectionContainerViewController.swift */,
+				656FFC7522FC58DD007CD943 /* OFA3CategoryListTableViewController.swift */,
+			);
+			path = "Category Selection";
+			sourceTree = "<group>";
+		};
+		657BBEB7231563D300E35BDB /* HandleNullValues */ = {
+			isa = PBXGroup;
+			children = (
+				657BBEB52315634B00E35BDB /* HandleNullValues.h */,
+				657BBEB42315634B00E35BDB /* HandleNullValues.m */,
+			);
+			path = HandleNullValues;
+			sourceTree = "<group>";
+		};
+		657BBEB8231563F000E35BDB /* SingletonUser */ = {
+			isa = PBXGroup;
+			children = (
+				657BBEB22315631800E35BDB /* OFA3SingletonUser.swift */,
+				6575B200231669A400C4A322 /* OFA3CoreDataManager.swift */,
+			);
+			path = SingletonUser;
+			sourceTree = "<group>";
+		};
+		65AF399022CCBAEC00FE6B80 = {
+			isa = PBXGroup;
+			children = (
+				65C5C0DB234310370000674B /* Open_Sans */,
+				65AF399B22CCBAEC00FE6B80 /* Ofabee3.0 */,
+				65AF39B322CCBAEE00FE6B80 /* Ofabee3.0Tests */,
+				65AF39BE22CCBAEE00FE6B80 /* Ofabee3.0UITests */,
+				65AF399A22CCBAEC00FE6B80 /* Products */,
+				A6DD9A461D4A079AF78928EE /* Pods */,
+				78C643610226505553C9B435 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65AF399A22CCBAEC00FE6B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AF399922CCBAEC00FE6B80 /* Ofabee3.0.app */,
+				65AF39B022CCBAEE00FE6B80 /* Ofabee3.0Tests.xctest */,
+				65AF39BB22CCBAEE00FE6B80 /* Ofabee3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AF399B22CCBAEC00FE6B80 /* Ofabee3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				65BC2650233CCDFB0017800B /* build */,
+				65BC2536233CC83A0017800B /* fonts */,
+				65AF399C22CCBAEC00FE6B80 /* AppDelegate.swift */,
+				65AF39CF22CCBCD500FE6B80 /* Model */,
+				65AF39CE22CCBCC900FE6B80 /* View */,
+				65AF39CD22CCBCC200FE6B80 /* Controller */,
+				65AF39A622CCBAEE00FE6B80 /* Assets.xcassets */,
+				651C48DD22DF61690069EDE3 /* Ofabee3.0-Bridging-Header.h */,
+				65AF39A822CCBAEE00FE6B80 /* LaunchScreen.storyboard */,
+				65AF39AB22CCBAEE00FE6B80 /* Info.plist */,
+				65AF39A322CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodeld */,
+			);
+			path = Ofabee3.0;
+			sourceTree = "<group>";
+		};
+		65AF39B322CCBAEE00FE6B80 /* Ofabee3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65AF39B422CCBAEE00FE6B80 /* Ofabee3_0Tests.swift */,
+				65AF39B622CCBAEE00FE6B80 /* Info.plist */,
+			);
+			path = Ofabee3.0Tests;
+			sourceTree = "<group>";
+		};
+		65AF39BE22CCBAEE00FE6B80 /* Ofabee3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				65AF39BF22CCBAEE00FE6B80 /* Ofabee3_0UITests.swift */,
+				65AF39C122CCBAEE00FE6B80 /* Info.plist */,
+			);
+			path = Ofabee3.0UITests;
+			sourceTree = "<group>";
+		};
+		65AF39CD22CCBCC200FE6B80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				656FFC7B22FC5919007CD943 /* User Authentication */,
+				656FFC7C22FC592C007CD943 /* Category Selection */,
+				65B069FF230ED9C10023CA68 /* Navigation Controller */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65AF39CE22CCBCC900FE6B80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65B06A01230EDA360023CA68 /* UIVIew Extension */,
+				656FFC7722FC58E4007CD943 /* Storyboard */,
+				65B06A02230EDA450023CA68 /* TableViewCells */,
+				65B5780C2331157B00AA9AF0 /* CollectionViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65AF39CF22CCBCD500FE6B80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				655B1A6A2313F20F00C060FE /* CountryCode */,
+				65C5AA2D22DDC6F100EA7801 /* SegmentControl Helper */,
+				65AF3B6522CCEC5A00FE6B80 /* Constants */,
+				657BBEB7231563D300E35BDB /* HandleNullValues */,
+				65AF3B6322CCEC4100FE6B80 /* Utils */,
+				657BBEB8231563F000E35BDB /* SingletonUser */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65AF3B6322CCEC4100FE6B80 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				651C48D522DEE84E0069EDE3 /* OFAUtils.swift */,
+				651C48D822DEE86F0069EDE3 /* SwiftLoader.swift */,
+				651C48D722DEE86F0069EDE3 /* Toast.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		65AF3B6522CCEC5A00FE6B80 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				651C48DB22DEE9160069EDE3 /* OFAConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		65B069F2230ED4DB0023CA68 /* TabBarControllerss */ = {
+			isa = PBXGroup;
+			children = (
+				65B069FC230ED81E0023CA68 /* OFA3TabBarViewController.swift */,
+				65C5C0D723430A8D0000674B /* Explore Courses */,
+				65B06A00230ED9FE0023CA68 /* HomePage */,
+				65E04CD0231F776600AA1310 /* My Course */,
+				65E04CD6231FC79100AA1310 /* Profile */,
+			);
+			path = TabBarControllerss;
+			sourceTree = "<group>";
+		};
+		65B069FE230ED9B70023CA68 /* LeftSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				65B069F6230ED7530023CA68 /* OFA3LeftSideBubbleTableViewController.swift */,
+			);
+			path = LeftSideMenu;
+			sourceTree = "<group>";
+		};
+		65B069FF230ED9C10023CA68 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65B069F8230ED77D0023CA68 /* OFA3HomeNavigationViewController.swift */,
+				65B069FE230ED9B70023CA68 /* LeftSideMenu */,
+				65B069F2230ED4DB0023CA68 /* TabBarControllerss */,
+			);
+			path = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		65B06A00230ED9FE0023CA68 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				65FF760F2334916E00CCC0D7 /* HomeBanners */,
+				65B069F0230ED4CE0023CA68 /* OFA3HomePageTableViewController.swift */,
+				6524389723387F5B002907AE /* OFA3AllCoursesListTableViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		65B06A01230EDA360023CA68 /* UIVIew Extension */ = {
+			isa = PBXGroup;
+			children = (
+				65B069FA230ED7A00023CA68 /* UIViewControllerExtension.swift */,
+			);
+			path = "UIVIew Extension";
+			sourceTree = "<group>";
+		};
+		65B06A02230EDA450023CA68 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				656FFC7A22FC590A007CD943 /* Category */,
+				65E04CD3231F77B500AA1310 /* My Course */,
+				65B5780D2331158A00AA9AF0 /* Profile */,
+				65B5780E2331159300AA9AF0 /* Home */,
+				65C5C0DA23430AB30000674B /* Explore Course */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		65B578032331072000AA9AF0 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				65B578012331071D00AA9AF0 /* OFA3WebViewReDirectionViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		65B5780C2331157B00AA9AF0 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				65B57810233115A900AA9AF0 /* Featured Courses */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		65B5780D2331158A00AA9AF0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				65A72A70232117D300629E92 /* OFA3ProfileSettingsTableViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		65B5780E2331159300AA9AF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				65B5780F2331159C00AA9AF0 /* Popular Courses */,
+				65B578042331153100AA9AF0 /* OFA3HomePopularCoursesTableViewCell.swift */,
+				65B578062331154400AA9AF0 /* OFA3HomeFeaturedCoursesTableViewCell.swift */,
+				6524389923388054002907AE /* OFA3AllCoursesListTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		65B5780F2331159C00AA9AF0 /* Popular Courses */ = {
+			isa = PBXGroup;
+			children = (
+				65B578082331155D00AA9AF0 /* OFA3PopularCoursesTableViewCell.swift */,
+			);
+			path = "Popular Courses";
+			sourceTree = "<group>";
+		};
+		65B57810233115A900AA9AF0 /* Featured Courses */ = {
+			isa = PBXGroup;
+			children = (
+				65B5780A2331157700AA9AF0 /* OFA3FeaturedCoursesCollectionViewCell.swift */,
+			);
+			path = "Featured Courses";
+			sourceTree = "<group>";
+		};
+		65BC2536233CC83A0017800B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		65C5AA2D22DDC6F100EA7801 /* SegmentControl Helper */ = {
+			isa = PBXGroup;
+			children = (
+				65F5B63322DDF7B300EEE50B /* TabySegmentedControl.swift */,
+			);
+			path = "SegmentControl Helper";
+			sourceTree = "<group>";
+		};
+		65C5C0D723430A8D0000674B /* Explore Courses */ = {
+			isa = PBXGroup;
+			children = (
+				65C5C0D523430A880000674B /* OFA3ExploreCoursesTableViewController.swift */,
+			);
+			path = "Explore Courses";
+			sourceTree = "<group>";
+		};
+		65C5C0DA23430AB30000674B /* Explore Course */ = {
+			isa = PBXGroup;
+			children = (
+				65C5C0D823430AAF0000674B /* OFA3ExploreCourseListTableViewCell.swift */,
+			);
+			path = "Explore Course";
+			sourceTree = "<group>";
+		};
+		65C5C0DB234310370000674B /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				65C5C0DC234310380000674B /* OpenSans-Semibold.ttf */,
+				65C5C0DD234310380000674B /* OpenSans-CondLightItalic.ttf */,
+				65C5C0DE234310380000674B /* OpenSans-CondLight.ttf */,
+				65C5C0DF234310380000674B /* OpenSans-Light.ttf */,
+				65C5C0E0234310380000674B /* OpenSans-Italic.ttf */,
+				65C5C0E1234310380000674B /* OpenSans-ExtraBold.ttf */,
+				65C5C0E2234310380000674B /* OpenSans-LightItalic.ttf */,
+				65C5C0E3234310380000674B /* OpenSans-Bold.ttf */,
+				65C5C0E4234310380000674B /* OpenSans-SemiboldItalic.ttf */,
+				65C5C0E5234310380000674B /* readme.txt */,
+				65C5C0E6234310380000674B /* OpenSans-ExtraBoldItalic.ttf */,
+				65C5C0E7234310380000674B /* OpenSans-Regular.ttf */,
+				65C5C0E8234310380000674B /* OpenSans-BoldItalic.ttf */,
+				65C5C0E9234310380000674B /* OpenSans-CondBold.ttf */,
+			);
+			path = Open_Sans;
+			sourceTree = "<group>";
+		};
+		65E04CD0231F776600AA1310 /* My Course */ = {
+			isa = PBXGroup;
+			children = (
+				65E04CCE231F776200AA1310 /* OFA3MyCourseTableViewController.swift */,
+				65A72A282321029900629E92 /* OFA3WebViewMyCourseViewController.swift */,
+			);
+			path = "My Course";
+			sourceTree = "<group>";
+		};
+		65E04CD3231F77B500AA1310 /* My Course */ = {
+			isa = PBXGroup;
+			children = (
+				65E04CD1231F77B100AA1310 /* OFA3MyCourseTableViewCell.swift */,
+			);
+			path = "My Course";
+			sourceTree = "<group>";
+		};
+		65E04CD6231FC79100AA1310 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				65E04CD4231FC78600AA1310 /* OFA3ProfileViewController.swift */,
+				65E04CD7231FC7D500AA1310 /* OFA3ProfileTableViewController.swift */,
+				6566F6D823226F3200AEB156 /* OFA3EditProfileTableViewController.swift */,
+				65B578032331072000AA9AF0 /* WebView */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		65FF760F2334916E00CCC0D7 /* HomeBanners */ = {
+			isa = PBXGroup;
+			children = (
+				65FF760B23348A5800CCC0D7 /* OFAAppImagesViewController.swift */,
+				65FF760A23348A5800CCC0D7 /* OFAPageViewImagesViewController.swift */,
+			);
+			path = HomeBanners;
+			sourceTree = "<group>";
+		};
+		78C643610226505553C9B435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A72A2C23210A2200629E92 /* WebKit.framework */,
+				FA867B124E7B18335D3EB935 /* Pods_Ofabee3_0.framework */,
+				5228A168D759702ABCE90B78 /* Pods_Ofabee3_0Tests.framework */,
+				0D93CCC83AD22CCBC7A7A012 /* Pods_Ofabee3_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DD9A461D4A079AF78928EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3F9C1D91D45A7995A4DF0BD /* Pods-Ofabee3.0.debug.xcconfig */,
+				427655952CEA256D526D48C7 /* Pods-Ofabee3.0.release.xcconfig */,
+				BDA5B973365BBBCE697DF631 /* Pods-Ofabee3.0Tests.debug.xcconfig */,
+				10520939AF538DE4B5EA4F01 /* Pods-Ofabee3.0Tests.release.xcconfig */,
+				0867F77D31BE11C38E751E77 /* Pods-Ofabee3.0UITests.debug.xcconfig */,
+				E68C18DD246E9382D02089FF /* Pods-Ofabee3.0UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AF399822CCBAEC00FE6B80 /* Ofabee3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AF39C422CCBAEE00FE6B80 /* Build configuration list for PBXNativeTarget "Ofabee3.0" */;
+			buildPhases = (
+				53420F52730583C66A2C6707 /* [CP] Check Pods Manifest.lock */,
+				65AF399522CCBAEC00FE6B80 /* Sources */,
+				65AF399622CCBAEC00FE6B80 /* Frameworks */,
+				65AF399722CCBAEC00FE6B80 /* Resources */,
+				15BBDE5A65F320C33085DDA8 /* [CP] Embed Pods Frameworks */,
+				5980218EE765583299CCFDF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ofabee3.0;
+			productName = Ofabee3.0;
+			productReference = 65AF399922CCBAEC00FE6B80 /* Ofabee3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65AF39AF22CCBAEE00FE6B80 /* Ofabee3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AF39C722CCBAEE00FE6B80 /* Build configuration list for PBXNativeTarget "Ofabee3.0Tests" */;
+			buildPhases = (
+				C4ACB5CDACEDC3B197C5D802 /* [CP] Check Pods Manifest.lock */,
+				65AF39AC22CCBAEE00FE6B80 /* Sources */,
+				65AF39AD22CCBAEE00FE6B80 /* Frameworks */,
+				65AF39AE22CCBAEE00FE6B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AF39B222CCBAEE00FE6B80 /* PBXTargetDependency */,
+			);
+			name = Ofabee3.0Tests;
+			productName = Ofabee3.0Tests;
+			productReference = 65AF39B022CCBAEE00FE6B80 /* Ofabee3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65AF39BA22CCBAEE00FE6B80 /* Ofabee3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AF39CA22CCBAEE00FE6B80 /* Build configuration list for PBXNativeTarget "Ofabee3.0UITests" */;
+			buildPhases = (
+				C974B86E5122785AB7D3E705 /* [CP] Check Pods Manifest.lock */,
+				65AF39B722CCBAEE00FE6B80 /* Sources */,
+				65AF39B822CCBAEE00FE6B80 /* Frameworks */,
+				65AF39B922CCBAEE00FE6B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AF39BD22CCBAEE00FE6B80 /* PBXTargetDependency */,
+			);
+			name = Ofabee3.0UITests;
+			productName = Ofabee3.0UITests;
+			productReference = 65AF39BB22CCBAEE00FE6B80 /* Ofabee3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AF399122CCBAEC00FE6B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OFA3;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Enfin;
+				TargetAttributes = {
+					65AF399822CCBAEC00FE6B80 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					65AF39AF22CCBAEE00FE6B80 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 65AF399822CCBAEC00FE6B80;
+					};
+					65AF39BA22CCBAEE00FE6B80 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 65AF399822CCBAEC00FE6B80;
+					};
+				};
+			};
+			buildConfigurationList = 65AF399422CCBAEC00FE6B80 /* Build configuration list for PBXProject "Ofabee3.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65AF399022CCBAEC00FE6B80;
+			productRefGroup = 65AF399A22CCBAEC00FE6B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AF399822CCBAEC00FE6B80 /* Ofabee3.0 */,
+				65AF39AF22CCBAEE00FE6B80 /* Ofabee3.0Tests */,
+				65AF39BA22CCBAEE00FE6B80 /* Ofabee3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AF399722CCBAEC00FE6B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5C0EE234310460000674B /* OpenSans-Italic.ttf in Resources */,
+				65C5C0F2234310460000674B /* OpenSans-SemiboldItalic.ttf in Resources */,
+				65C5C0EB234310460000674B /* OpenSans-CondLightItalic.ttf in Resources */,
+				65C5C0F1234310460000674B /* OpenSans-Bold.ttf in Resources */,
+				65C5C0F7234310460000674B /* OpenSans-CondBold.ttf in Resources */,
+				65C5C0F3234310460000674B /* readme.txt in Resources */,
+				65BC2651233CCDFB0017800B /* build in Resources */,
+				65C5C0F5234310460000674B /* OpenSans-Regular.ttf in Resources */,
+				65C5C0F6234310460000674B /* OpenSans-BoldItalic.ttf in Resources */,
+				65C5C0ED234310460000674B /* OpenSans-Light.ttf in Resources */,
+				65C5C0F4234310460000674B /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				65C5C0EC234310460000674B /* OpenSans-CondLight.ttf in Resources */,
+				65C5C0F0234310460000674B /* OpenSans-LightItalic.ttf in Resources */,
+				65AF39AA22CCBAEE00FE6B80 /* LaunchScreen.storyboard in Resources */,
+				65AF39A722CCBAEE00FE6B80 /* Assets.xcassets in Resources */,
+				65AF39A222CCBAEC00FE6B80 /* Main.storyboard in Resources */,
+				65C5C0EA234310460000674B /* OpenSans-Semibold.ttf in Resources */,
+				65C5C0EF234310460000674B /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AF39AE22CCBAEE00FE6B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AF39B922CCBAEE00FE6B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15BBDE5A65F320C33085DDA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ofabee3.0/Pods-Ofabee3.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BubbleTransition/BubbleTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/FloatRatingView/FloatRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/Http.swift/HttpSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSProgressBar/SSProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.swift/SocketSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TweeTextField/TweeTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BubbleTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FloatRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HttpSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TweeTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ofabee3.0/Pods-Ofabee3.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53420F52730583C66A2C6707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ofabee3.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5980218EE765583299CCFDF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ofabee3.0/Pods-Ofabee3.0-resources.sh",
+				"${PODS_ROOT}/Phone-Country-Code-and-Flags/Phone-Country-Code-and-Flags.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Phone-Country-Code-and-Flags.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ofabee3.0/Pods-Ofabee3.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4ACB5CDACEDC3B197C5D802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ofabee3.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C974B86E5122785AB7D3E705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ofabee3.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AF399522CCBAEC00FE6B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B578052331153100AA9AF0 /* OFA3HomePopularCoursesTableViewCell.swift in Sources */,
+				655B1A692313E5CA00C060FE /* OFA3OTPTableViewController.swift in Sources */,
+				65E04CD8231FC7D500AA1310 /* OFA3ProfileTableViewController.swift in Sources */,
+				656FFC7922FC5903007CD943 /* OFA3CategorySelectionListTableViewCell.swift in Sources */,
+				651C48E022DF616A0069EDE3 /* PCCPViewController.m in Sources */,
+				65A72A71232117D300629E92 /* OFA3ProfileSettingsTableViewCell.swift in Sources */,
+				65B578072331154400AA9AF0 /* OFA3HomeFeaturedCoursesTableViewCell.swift in Sources */,
+				65B578022331071D00AA9AF0 /* OFA3WebViewReDirectionViewController.swift in Sources */,
+				656F72F322E06B3C00A1FB81 /* OFA3RegisterTableViewController.swift in Sources */,
+				65B069F1230ED4CE0023CA68 /* OFA3HomePageTableViewController.swift in Sources */,
+				65A72A292321029900629E92 /* OFA3WebViewMyCourseViewController.swift in Sources */,
+				653945DA23337F7E00507156 /* OFA3PasswordResetTableViewController.swift in Sources */,
+				65B578092331155D00AA9AF0 /* OFA3PopularCoursesTableViewCell.swift in Sources */,
+				65C5C0D923430AAF0000674B /* OFA3ExploreCourseListTableViewCell.swift in Sources */,
+				6566F6D923226F3200AEB156 /* OFA3EditProfileTableViewController.swift in Sources */,
+				65B069FB230ED7A00023CA68 /* UIViewControllerExtension.swift in Sources */,
+				65B069FD230ED81E0023CA68 /* OFA3TabBarViewController.swift in Sources */,
+				65FF760D23348A5800CCC0D7 /* OFAAppImagesViewController.swift in Sources */,
+				65E04CD2231F77B100AA1310 /* OFA3MyCourseTableViewCell.swift in Sources */,
+				65E04CCF231F776200AA1310 /* OFA3MyCourseTableViewController.swift in Sources */,
+				656FFC7622FC58DD007CD943 /* OFA3CategoryListTableViewController.swift in Sources */,
+				65B5780B2331157700AA9AF0 /* OFA3FeaturedCoursesCollectionViewCell.swift in Sources */,
+				656FFC7422FC58CA007CD943 /* OFA3CategorySelectionContainerViewController.swift in Sources */,
+				651C48DA22DEE86F0069EDE3 /* Toast.swift in Sources */,
+				657BBEB32315631800E35BDB /* OFA3SingletonUser.swift in Sources */,
+				65E04CD5231FC78600AA1310 /* OFA3ProfileViewController.swift in Sources */,
+				65B069F7230ED7530023CA68 /* OFA3LeftSideBubbleTableViewController.swift in Sources */,
+				65C5AA2F22DDC77E00EA7801 /* OFA3LoginSelectionTableViewController.swift in Sources */,
+				65B069F9230ED77D0023CA68 /* OFA3HomeNavigationViewController.swift in Sources */,
+				657BBEB62315634B00E35BDB /* HandleNullValues.m in Sources */,
+				65F5B63422DDF7B300EEE50B /* TabySegmentedControl.swift in Sources */,
+				65AF399D22CCBAEC00FE6B80 /* AppDelegate.swift in Sources */,
+				655B1A672313E13600C060FE /* OFA3ForgetPasswordTableViewController.swift in Sources */,
+				651C48D922DEE86F0069EDE3 /* SwiftLoader.swift in Sources */,
+				6575B201231669A400C4A322 /* OFA3CoreDataManager.swift in Sources */,
+				651C48D622DEE84E0069EDE3 /* OFAUtils.swift in Sources */,
+				65C5C0D623430A880000674B /* OFA3ExploreCoursesTableViewController.swift in Sources */,
+				6524389823387F5B002907AE /* OFA3AllCoursesListTableViewController.swift in Sources */,
+				65FF760C23348A5800CCC0D7 /* OFAPageViewImagesViewController.swift in Sources */,
+				6524389A23388054002907AE /* OFA3AllCoursesListTableViewCell.swift in Sources */,
+				651C48DC22DEE9160069EDE3 /* OFAConstants.swift in Sources */,
+				65AF39A522CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AF39AC22CCBAEE00FE6B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AF39B522CCBAEE00FE6B80 /* Ofabee3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AF39B722CCBAEE00FE6B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AF39C022CCBAEE00FE6B80 /* Ofabee3_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65AF39B222CCBAEE00FE6B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65AF399822CCBAEC00FE6B80 /* Ofabee3.0 */;
+			targetProxy = 65AF39B122CCBAEE00FE6B80 /* PBXContainerItemProxy */;
+		};
+		65AF39BD22CCBAEE00FE6B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65AF399822CCBAEC00FE6B80 /* Ofabee3.0 */;
+			targetProxy = 65AF39BC22CCBAEE00FE6B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65AF39A022CCBAEC00FE6B80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AF39A122CCBAEC00FE6B80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65AF39A822CCBAEE00FE6B80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AF39A922CCBAEE00FE6B80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65AF39C222CCBAEE00FE6B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65AF39C322CCBAEE00FE6B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AF39C522CCBAEE00FE6B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F9C1D91D45A7995A4DF0BD /* Pods-Ofabee3.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 85B835546C;
+				INFOPLIST_FILE = Ofabee3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Enfin.Ofabee3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Ofabee3.0_App_Development_Jul_3_2019;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ofabee3.0/Ofabee3.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65AF39C622CCBAEE00FE6B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427655952CEA256D526D48C7 /* Pods-Ofabee3.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 85B835546C;
+				INFOPLIST_FILE = Ofabee3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Enfin.Ofabee3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Ofabee3.0_App_Development_Jul_3_2019;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ofabee3.0/Ofabee3.0-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65AF39C822CCBAEE00FE6B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA5B973365BBBCE697DF631 /* Pods-Ofabee3.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85B835546C;
+				INFOPLIST_FILE = Ofabee3.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Enfin.Ofabee3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ofabee3.0.app/Ofabee3.0";
+			};
+			name = Debug;
+		};
+		65AF39C922CCBAEE00FE6B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10520939AF538DE4B5EA4F01 /* Pods-Ofabee3.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85B835546C;
+				INFOPLIST_FILE = Ofabee3.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Enfin.Ofabee3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ofabee3.0.app/Ofabee3.0";
+			};
+			name = Release;
+		};
+		65AF39CB22CCBAEE00FE6B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0867F77D31BE11C38E751E77 /* Pods-Ofabee3.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85B835546C;
+				INFOPLIST_FILE = Ofabee3.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Enfin.Ofabee3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ofabee3.0;
+			};
+			name = Debug;
+		};
+		65AF39CC22CCBAEE00FE6B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68C18DD246E9382D02089FF /* Pods-Ofabee3.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85B835546C;
+				INFOPLIST_FILE = Ofabee3.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Enfin.Ofabee3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ofabee3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AF399422CCBAEC00FE6B80 /* Build configuration list for PBXProject "Ofabee3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AF39C222CCBAEE00FE6B80 /* Debug */,
+				65AF39C322CCBAEE00FE6B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AF39C422CCBAEE00FE6B80 /* Build configuration list for PBXNativeTarget "Ofabee3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AF39C522CCBAEE00FE6B80 /* Debug */,
+				65AF39C622CCBAEE00FE6B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AF39C722CCBAEE00FE6B80 /* Build configuration list for PBXNativeTarget "Ofabee3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AF39C822CCBAEE00FE6B80 /* Debug */,
+				65AF39C922CCBAEE00FE6B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AF39CA22CCBAEE00FE6B80 /* Build configuration list for PBXNativeTarget "Ofabee3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AF39CB22CCBAEE00FE6B80 /* Debug */,
+				65AF39CC22CCBAEE00FE6B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65AF39A322CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65AF39A422CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodel */,
+			);
+			currentVersion = 65AF39A422CCBAEC00FE6B80 /* Ofabee3_0.xcdatamodel */;
+			path = Ofabee3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65AF399122CCBAEC00FE6B80 /* Project object */;
+}

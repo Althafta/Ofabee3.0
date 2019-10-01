@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Ofabee3.0' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Ofabee3.0
+pod 'Alamofire', '~> 4.4'
+pod 'BubbleTransition', '~> 3.2.0'
+pod 'TweeTextField'
+pod 'Phone-Country-Code-and-Flags'
+pod 'SSProgressBar'
+pod 'SDWebImage', '~> 5.0'
+pod 'Http.swift', '~> 2.1'
+pod 'FloatRatingView', '~> 2.0.0'
+
+  target 'Ofabee3.0Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Ofabee3.0UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
